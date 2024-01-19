@@ -9,30 +9,29 @@
         $getChart = $getChart();
     @endphp
 
-        @if (filled($descriptionAbove))
-                <p
-                        @class([
-                                'text-sm text-gray-500 dark:text-gray-400',
-                                'whitespace-normal' => $canWrap,
-                            ])
-                >
-                        {{ $descriptionAbove }}
-                </p>
-        @endif
+    @if (filled($descriptionAbove))
+        <p
+            @class([
+              'text-sm text-gray-500 dark:text-gray-400',
+              'whitespace-normal' => $canWrap,
+            ])
+        >
+            {{ $descriptionAbove }}
+        </p>
+    @endif
 
-    @livewire($getChart,['maxWidth'=>$getMaxWidth])
+    @livewire($getChart,['maxWidth' => $getMaxWidth, 'record' => $getRecord()])
 
-        @if (filled($descriptionBelow))
-                <p
-                        @class([
-                            'text-sm text-gray-500 dark:text-gray-400',
-                            'whitespace-normal' => $canWrap,
-                        ])
-                >
-                        {{ $descriptionBelow }}
-                </p>
-        @endif
-
+    @if (filled($descriptionBelow))
+        <p
+            @class([
+                'text-sm text-gray-500 dark:text-gray-400',
+                'whitespace-normal' => $canWrap,
+            ])
+        >
+            {{ $descriptionBelow }}
+        </p>
+    @endif
 
     @pushonce('scripts')
         <script>

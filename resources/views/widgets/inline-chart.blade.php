@@ -1,10 +1,10 @@
 @php
-        use Filament\Support\Enums\MaxWidth;
-        use Filament\Support\Facades\FilamentView;
+    use Filament\Support\Enums\MaxWidth;
+    use Filament\Support\Facades\FilamentView;
 
-        $color = $this->getColor();
-        $heading = $this->getHeading();
-        $filters = $this->getFilters();
+    $color = $this->getColor();
+    $heading = $this->getHeading();
+    $filters = $this->getFilters();
 @endphp
 <x-filament-widgets::widget class="fi-wi-chart">
     <div
@@ -34,9 +34,9 @@
         >
             <div
                 @if (FilamentView::hasSpaMode())
-                        ax-load="visible"
+                    ax-load="visible"
                 @else
-                        ax-load
+                    ax-load
                 @endif
                 ax-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('chart', 'filament/widgets') }}"
                 wire:ignore

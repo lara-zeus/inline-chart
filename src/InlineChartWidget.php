@@ -4,6 +4,7 @@ namespace LaraZeus\InlineChart;
 
 use Filament\Support\RawJs;
 use Filament\Widgets\ChartWidget;
+use Illuminate\Database\Eloquent\Model;
 
 abstract class InlineChartWidget extends ChartWidget
 {
@@ -16,6 +17,8 @@ abstract class InlineChartWidget extends ChartWidget
     protected static ?string $heading = 'Chart';
 
     public ?string $maxWidth = '!w-[150px]';
+
+    public Model $record;
 
     protected function getOptions(): RawJs
     {
