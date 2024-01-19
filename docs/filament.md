@@ -20,7 +20,7 @@ Inline Chart is to easily add a chart in filamentPHP table column
 ## More Details
 **✨ to learn more about Zeus Inline Chart, please visit:**
 
-- [Discord](#)
+- [Discord](https://discord.com/channels/883083792112300104/1197986417855430820)
 - [Docs](https://larazeus.com/docs/inline-chart)
 - [Github](https://github.com/lara-zeus/inline-chart)
 - [Demo](https://demo.larazeus.com/admin/components-demo/inline-chart)
