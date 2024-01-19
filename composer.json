@@ -63,7 +63,7 @@
     "extra": {
         "laravel": {
             "providers": [
-              "InlineChartServiceProvider"
+              "LaraZeus\\InlineChart\\InlineChartServiceProvider"
             ]
         }
     },

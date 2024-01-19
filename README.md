@@ -14,7 +14,7 @@
 </p>
 
 ## features
-- 🔥 Use any filament chart classes (click)
+- 🔥 Use any filament chart classes
 - 🔥 Better tooltip
 - 🔥 Use any widget type
 - 🔥 Max Width
@@ -29,7 +29,7 @@
 
 ## Demo
 
-> Visit our demo site: https://demo.larazeus.com/inline-chart
+> Visit our demo site: https://demo.larazeus.com/admin/user
 
 ## Full Documentation
 

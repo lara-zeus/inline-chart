@@ -7,7 +7,7 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class InlineChartServiceProvider extends PackageServiceProvider
 {
-    public static string $name = 'zeus-popover';
+    public static string $name = 'zeus-inline-chart';
 
     public function configurePackage(Package $package): void
     {

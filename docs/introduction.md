@@ -4,26 +4,29 @@ weight: 1
 ---
 
 ## Introduction
-@zeus Popover is filamentphp component to show a Popover (tippyjs) with custom content in tables and infolist
+@zeus Inline Chart to easily add a chart in filamentPHP table column
 
-**[Demo](https://demo.larazeus.com/admin/users) · [Github](https://github.com/lara-zeus/popover) · [Discord](https://discord.com/channels/883083792112300104/1191457684856246353)**
+**[Demo](https://demo.larazeus.com/admin/users) · [Github](https://github.com/lara-zeus/inline-chart) · [Discord](#)**
 
-## features
+## Features
 
-- 🔥 trigger (click)
-- 🔥 placement (right)
-- 🔥 offset from the content
+- 🔥 Use any filament chart classes
+- 🔥 Better tooltip
+- 🔥 Use any widget type
 - 🔥 Max Width
-- 🔥 icon
+- 🔥 Polling
 
 ## Screenshots
 
-![](https://larazeus.com/images/screenshots/popover/popover-1.jpeg)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-1.jpeg)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-2.jpeg)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-3.jpeg)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-4.jpeg)
 
 ## Support
 
 Available support channels:
 
-* Join our channel in discord [Discord](https://discord.com/channels/883083792112300104/1191457684856246353)
-* Open an issue on [GitHub](https://github.com/lara-zeus/popover/issues)
+* Join our channel in discord [Discord](#)
+* Open an issue on [GitHub](https://github.com/lara-zeus/inline-chart/issues)
 * Email us using the [contact center](https://larazeus.com/contact-us)

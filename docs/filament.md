@@ -1,24 +1,26 @@
-# Zeus Popover Component
+# Zeus Inline Chart
 
-Popover (tippyjs) with custom content in tables and infolist
+Inline Chart is to easily add a chart in filamentPHP table column
 
 ## Features
 
-## features
-- 🔥 trigger (click)
-- 🔥 placement (right)
-- 🔥 offset from the content
+- 🔥 Use any filament chart classes
+- 🔥 Better tooltip
+- 🔥 Use any widget type
 - 🔥 Max Width
-- 🔥 icon
+- 🔥 Polling
 
 ## Screenshots
 
-![](https://larazeus.com/images/screenshots/popover/popover-1.jpeg)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-1.jpeg)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-2.jpeg)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-3.jpeg)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-4.jpeg)
 
 ## More Details
-**✨ to learn more about Popover, please visit:**
+**✨ to learn more about Zeus Inline Chart, please visit:**
 
-- [Discord](https://discord.com/channels/883083792112300104/1191457684856246353)
-- [Docs](https://larazeus.com/docs/popover)
-- [Github](https://github.com/lara-zeus/popover)
+- [Discord](#)
+- [Docs](https://larazeus.com/docs/inline-chart)
+- [Github](https://github.com/lara-zeus/inline-chart)
 - [Demo](https://demo.larazeus.com/admin/users)
