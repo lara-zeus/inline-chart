@@ -12,10 +12,10 @@ Inline Chart is to easily add a chart in filamentPHP table column
 
 ## Screenshots
 
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-1.jpeg)
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-2.jpeg)
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-3.jpeg)
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-4.jpeg)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-1.png)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-2.png)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-3.png)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-4.png)
 
 ## More Details
 **✨ to learn more about Zeus Inline Chart, please visit:**
