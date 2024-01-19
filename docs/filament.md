@@ -23,4 +23,4 @@ Inline Chart is to easily add a chart in filamentPHP table column
 - [Discord](#)
 - [Docs](https://larazeus.com/docs/inline-chart)
 - [Github](https://github.com/lara-zeus/inline-chart)
-- [Demo](https://demo.larazeus.com/admin/users)
+- [Demo](https://demo.larazeus.com/admin/components-demo/inline-chart)
