@@ -7,6 +7,7 @@
         $descriptionBelow = $getDescriptionBelow();
         $canWrap = $canWrap();
         $getChart = $getChart();
+        $getRecord = $getRecord();
     @endphp
 
     @if (filled($descriptionAbove))
@@ -20,7 +21,9 @@
         </p>
     @endif
 
-    @livewire($getChart,['maxWidth' => $getMaxWidth, 'record' => $getRecord()])
+    <div wire:ignore>
+        @livewire($getChart, ['maxWidth' => $getMaxWidth, 'lazy' => true, 'record' => $getRecord], key("chart-{$getRecord->id}"))
+    </div>
 
     @if (filled($descriptionBelow))
         <p

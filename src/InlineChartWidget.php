@@ -10,13 +10,13 @@ abstract class InlineChartWidget extends ChartWidget
 {
     protected static string $view = 'zeus-inline-chart::widgets.inline-chart';
 
-    protected static ?string $maxHeight = '50px';
+    protected static ?string $maxHeight = '70px';
 
     protected int | string | array $columnSpan = 'full';
 
     protected static ?string $heading = 'Chart';
 
-    public ?string $maxWidth = '!w-[150px]';
+    public ?string $maxWidth = null;
 
     public Model $record;
 
