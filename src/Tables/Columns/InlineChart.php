@@ -17,7 +17,7 @@ class InlineChart extends Column
 
     protected ?string $chart = null;
 
-    protected string $maxWidth = '!w-[150px]';
+    protected string $maxWidth = 'w-full';
 
     public function chart(string $chart): static
     {

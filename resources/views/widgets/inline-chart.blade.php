@@ -6,30 +6,14 @@
     $heading = $this->getHeading();
     $filters = $this->getFilters();
 @endphp
-<x-filament-widgets::widget class="fi-wi-chart">
+<x-filament-widgets::widget wire:ignore>
     <div
-        @class([
-            'px-2',
-            match ($maxWidth) {
-                MaxWidth::ExtraSmall, 'xs' => 'max-w-xs',
-                MaxWidth::Small, 'sm' => 'max-w-sm',
-                MaxWidth::Medium, 'md' => 'max-w-md',
-                MaxWidth::Large, 'lg' => 'max-w-lg',
-                MaxWidth::ExtraLarge, 'xl' => 'max-w-xl',
-                MaxWidth::TwoExtraLarge, '2xl' => 'max-w-2xl',
-                MaxWidth::ThreeExtraLarge, '3xl' => 'max-w-3xl',
-                MaxWidth::FourExtraLarge, '4xl' => 'max-w-4xl',
-                MaxWidth::FiveExtraLarge, '5xl' => '!max-w-5xl bord',
-                MaxWidth::SixExtraLarge, '6xl' => 'max-w-6xl',
-                MaxWidth::SevenExtraLarge, '7xl' => '!max-w-7xl bord',
-                null => 'w-[14rem]',
-                default => $maxWidth,
-            },
-        ])
+        wire:key="{{ $record->id }}"
+        class="px-2"
     >
         <div
             @if ($pollingInterval = $this->getPollingInterval())
-                    wire:poll.{{ $pollingInterval }}="updateChartData"
+                wire:poll.{{ $pollingInterval }}="updateChartData"
             @endif
         >
             <div
@@ -39,7 +23,7 @@
                     ax-load
                 @endif
                 ax-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('chart', 'filament/widgets') }}"
-                wire:ignore
+
                 x-data="chart({
                     cachedData: @js($this->getCachedData()),
                     options: @js($this->getOptions()),
@@ -48,10 +32,10 @@
                 x-ignore
             >
                 <canvas
-                        x-ref="canvas"
-                        @if ($maxHeight = $this->getMaxHeight())
-                                style="max-height: {{ $maxHeight }}"
-                        @endif
+                    x-ref="canvas"
+                    @if ($maxHeight = $this->getMaxHeight())
+                        style="width: {{ $maxWidth }}!important; max-height: {{ $maxHeight }}"
+                    @endif
                 ></canvas>
 
                 <span
