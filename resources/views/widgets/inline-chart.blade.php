@@ -34,7 +34,7 @@
                 <canvas
                     x-ref="canvas"
                     @if ($maxHeight = $this->getMaxHeight())
-                        style="width: {{ $maxWidth }}!important; max-height: {{ $maxHeight }}"
+                        style="width: {{ $maxWidth }}!important; height: {{ $maxHeight }}!important;"
                     @endif
                 ></canvas>
 
@@ -82,7 +82,11 @@
                     class="text-gray-500 dark:text-gray-400"
                 ></span>
 
-                <p class="my-1 text-center tooltipElement text-sm text-gray-500 dark:text-gray-400"><br></p>
+                <p
+                    @if ($maxHeight = $this->getMaxHeight())
+                        style="width: {{ $maxWidth }}!important;"
+                    @endif
+                    class="my-1 text-center tooltipElement text-sm text-gray-500 dark:text-gray-400"><br></p>
             </div>
         </div>
     </div>
