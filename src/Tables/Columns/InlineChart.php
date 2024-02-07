@@ -17,7 +17,9 @@ class InlineChart extends Column
 
     protected ?string $chart = null;
 
-    protected string $maxWidth = 'w-full';
+    protected int $maxWidth = 200;
+
+    protected int $maxHeight = 50;
 
     public function chart(string $chart): static
     {
@@ -35,15 +37,27 @@ class InlineChart extends Column
         return $this->chart;
     }
 
-    public function maxWidth(string $maxWidth): static
+    public function maxWidth(int $maxWidth): static
     {
         $this->maxWidth = $maxWidth;
 
         return $this;
     }
 
-    public function getMaxWidth(): string
+    public function getMaxWidth(): int
     {
         return $this->maxWidth;
+    }
+
+    public function maxHeight(int $maxHeight): static
+    {
+        $this->maxHeight = $maxHeight;
+
+        return $this;
+    }
+
+    public function getMaxHeight(): int
+    {
+        return $this->maxHeight;
     }
 }

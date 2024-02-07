@@ -45,8 +45,9 @@ Model::where('child_id',$this->record->id)
 
 ```php
 \LaraZeus\InlineChart\Tables\Columns\InlineChart::make('last activities')
-                        ->chart(MiniChart::class)
-                        ->maxWidth('!w-[150px]')
-                        ->description('description')
-                        ->toggleable(),
+    ->chart(MiniChart::class)
+    ->maxWidth(350)// int, default 200
+    ->maxHeight(90)// int, default 50
+    ->description('description')
+    ->toggleable(),
 ```
