@@ -2,6 +2,7 @@
     @php
         $getState = $getState();
         $getMaxWidth = $getMaxWidth();
+        $getMaxHeight = $getMaxHeight();
         $getIcon = $getIcon($getState);
         $descriptionAbove = $getDescriptionAbove();
         $descriptionBelow = $getDescriptionBelow();
@@ -21,8 +22,14 @@
         </p>
     @endif
 
-    <div wire:ignore>
-        @livewire($getChart, ['maxWidth' => $getMaxWidth, 'lazy' => true, 'record' => $getRecord], key("chart-{$getRecord->id}"))
+    <div
+        wire:ignore
+        style="
+            width: {{ $getMaxWidth }}px !important;
+            height: {{ $getMaxHeight }}px !important;
+           "
+    >
+        @livewire($getChart, ['maxWidth' => $getMaxWidth, 'maxHeight' => $getMaxHeight, 'lazy' => true, 'record' => $getRecord], key("chart-{$getRecord->id}"))
     </div>
 
     @if (filled($descriptionBelow))
