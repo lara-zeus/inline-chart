@@ -2,6 +2,27 @@
 
 All notable changes to `Inline Chart` will be documented in this file
 
+## 1.1.0 - 2024-02-07
+
+### What's Changed
+
+* fix chart width and height by @atmonshi in https://github.com/lara-zeus/inline-chart/pull/3
+
+changing the maxWidth and maxHeight:
+
+the usage will be:
+
+```php
+\LaraZeus\InlineChart\Tables\Columns\InlineChart::make('last activities')
+    ->chart(MiniChart::class)
+    ->maxWidth(350)// int, default 200
+    ->maxHeight(90)// int, default 50
+    ->description('description')
+    ->toggleable(),
+
+```
+**Full Changelog**: https://github.com/lara-zeus/inline-chart/compare/1.0.2...1.1.0
+
 ## 1.0.2 - 2024-02-06
 
 ### What's Changed
