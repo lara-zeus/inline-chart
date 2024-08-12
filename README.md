@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-inline-chart.png" /></a>
+<a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-inline-chart.webp" /></a>
 </p>
 
 <h4 align="center">easily add a chart in filamentPHP table column.</h4>
@@ -22,10 +22,10 @@
 
 ## Screenshots
 
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-1.png)
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-2.png)
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-3.png)
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-4.png)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-1.webp)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-2.webp)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-3.webp)
+![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-4.webp)
 
 ## Demo
 
