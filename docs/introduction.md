@@ -6,7 +6,7 @@ weight: 1
 ## Introduction
 @zeus Inline Chart to easily add a chart in filamentPHP table column
 
-**[Demo](https://demo.larazeus.com/admin/components-demo/inline-chart) · [Github](https://github.com/lara-zeus/inline-chart) · [Discord](#)**
+**[Demo](https://demo.larazeus.com/admin/components-demo/inline-chart) · [Github](https://github.com/lara-zeus/inline-chart) · [Discord](https://discord.com/channels/883083792112300104/1282761082158452787)**
 
 ## Features
 
@@ -27,6 +27,6 @@ weight: 1
 
 Available support channels:
 
-* Join our channel in discord [Discord](https://discord.com/channels/883083792112300104/1197986417855430820)
+* Join our channel on [Discord](https://discord.com/channels/883083792112300104/1282761082158452787)
 * Open an issue on [GitHub](https://github.com/lara-zeus/inline-chart/issues)
 * Email us using the [contact center](https://larazeus.com/contact-us)
