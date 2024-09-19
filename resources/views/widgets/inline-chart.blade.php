@@ -8,7 +8,6 @@
 @endphp
 <x-filament-widgets::widget wire:ignore>
     <div
-        wire:key="{{ $record->id }}"
         class="px-2"
     >
         <div
