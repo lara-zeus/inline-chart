@@ -2,6 +2,22 @@
 
 All notable changes to `Inline Chart` will be documented in this file
 
+## 1.1.1 - 2024-09-19
+
+### What's Changed
+
+* Bump ramsey/composer-install from 2 to 3 by @dependabot in https://github.com/lara-zeus/inline-chart/pull/4
+* Bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 by @dependabot in https://github.com/lara-zeus/inline-chart/pull/5
+* Bump aglipanci/laravel-pint-action from 2.3.1 to 2.4 by @dependabot in https://github.com/lara-zeus/inline-chart/pull/6
+* Bump dependabot/fetch-metadata from 2.0.0 to 2.1.0 by @dependabot in https://github.com/lara-zeus/inline-chart/pull/7
+* Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in https://github.com/lara-zeus/inline-chart/pull/8
+
+### New Contributors
+
+* @dependabot made their first contribution in https://github.com/lara-zeus/inline-chart/pull/4
+
+**Full Changelog**: https://github.com/lara-zeus/inline-chart/compare/1.1.0...1.1.1
+
 ## 1.1.0 - 2024-02-07
 
 ### What's Changed
@@ -19,6 +35,7 @@ the usage will be:
     ->maxHeight(90)// int, default 50
     ->description('description')
     ->toggleable(),
+
 
 ```
 **Full Changelog**: https://github.com/lara-zeus/inline-chart/compare/1.0.2...1.1.0
