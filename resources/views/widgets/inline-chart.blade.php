@@ -46,13 +46,6 @@
                             default => 'text-custom-50 dark:text-custom-400/10',
                         },
                     ])
-                    @style([
-                        \Filament\Support\get_color_css_variables(
-                            $color,
-                            shades: [50, 400],
-                            alias: 'widgets::chart-widget.background',
-                        ) => $color !== 'gray',
-                    ])
                 ></span>
 
                 <span
@@ -62,13 +55,6 @@
                             'gray' => 'text-gray-400',
                             default => 'text-custom-500 dark:text-custom-400',
                         },
-                    ])
-                    @style([
-                        \Filament\Support\get_color_css_variables(
-                            $color,
-                            shades: [400, 500],
-                            alias: 'widgets::chart-widget.border',
-                        ) => $color !== 'gray',
                     ])
                 ></span>
 
