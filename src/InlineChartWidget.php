@@ -29,8 +29,7 @@ abstract class InlineChartWidget extends ChartWidget
                         display: false,
                     },
                 tooltip: {
-                    enabled: false,
-                    external: externalTooltipHandler
+                    enabled: false, 
                 }
             },
             scales: {
