@@ -2,9 +2,9 @@
 
 namespace LaraZeus\InlineChart\Tables\Columns;
 
+use Filament\Support\Concerns\CanWrap;
 use Filament\Support\Concerns\HasIcon;
 use Filament\Tables\Columns\Column;
-use Filament\Tables\Columns\Concerns\CanWrap;
 use Filament\Tables\Columns\Concerns\HasDescription;
 
 class InlineChart extends Column
