@@ -18,7 +18,7 @@ abstract class InlineChartWidget extends ChartWidget
 
     protected ?string $maxHeight = '50';
 
-    public Model $record;
+    public ?Model $record = null;
 
     protected function getOptions(): RawJs
     {
