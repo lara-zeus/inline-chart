@@ -2,6 +2,21 @@
 
 All notable changes to `Inline Chart` will be documented in this file
 
+## 2.0.1 - 2025-07-31
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot[bot] in https://github.com/lara-zeus/inline-chart/pull/14
+* Bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/lara-zeus/inline-chart/pull/18
+* Update InlineChartWidget.php by @broqit in https://github.com/lara-zeus/inline-chart/pull/19
+* Bump stefanzweifel/git-auto-commit-action from 5 to 6 by @dependabot[bot] in https://github.com/lara-zeus/inline-chart/pull/17
+
+### New Contributors
+
+* @broqit made their first contribution in https://github.com/lara-zeus/inline-chart/pull/19
+
+**Full Changelog**: https://github.com/lara-zeus/inline-chart/compare/2.0.0...2.0.1
+
 ## 1.1.2 - 2025-03-03
 
 ### What's Changed
@@ -45,6 +60,7 @@ the usage will be:
     ->maxHeight(90)// int, default 50
     ->description('description')
     ->toggleable(),
+
 
 
 
