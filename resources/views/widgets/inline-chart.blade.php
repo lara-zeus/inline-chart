@@ -33,8 +33,8 @@
                 <canvas
                     x-ref="canvas"
                     style="
-                        width: {{ (int) $maxWidth }}px !important;
-                        height: {{ (int) $this->getMaxHeight() }}px !important;
+                        max-width: {{ (int) $maxWidth }}px;
+                        max-height: {{ (int) $this->getMaxHeight() }}px;
                     "
                 ></canvas>
 
