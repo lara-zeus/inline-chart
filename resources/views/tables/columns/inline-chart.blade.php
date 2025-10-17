@@ -26,7 +26,7 @@
         wire:ignore
         style="
             width: {{ $getMaxWidth }}px !important;
-            height: {{ $getMaxHeight }}px !important;
+            height: {{ $getMaxHeight + 25 }}px !important;
            "
     >
         @livewire($getChart, ['maxWidth' => $getMaxWidth, 'maxHeight' => $getMaxHeight, 'lazy' => true, 'record' => $getRecord], key("chart-{$getRecord->id}"))
@@ -47,7 +47,7 @@
         <script>
           const externalTooltipHandler = (context) => {
             const { chart, tooltip } = context
-            let tooltipEl = chart.canvas.parentNode.querySelector('.tooltipElement')
+            let tooltipEl = chart.canvas.parentNode.parentNode.querySelector('.tooltipElement')
 
             if (tooltip.opacity === 0) {
               tooltipEl.style.opacity = 0
