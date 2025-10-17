@@ -2,6 +2,14 @@
 
 All notable changes to `Inline Chart` will be documented in this file
 
+## 2.0.3 - 2025-10-17
+
+### What's Changed
+
+* Fix styles by @atmonshi in https://github.com/lara-zeus/inline-chart/pull/23
+
+**Full Changelog**: https://github.com/lara-zeus/inline-chart/compare/2.0.1...2.0.3
+
 ## 2.0.1 - 2025-07-31
 
 ### What's Changed
@@ -60,6 +68,7 @@ the usage will be:
     ->maxHeight(90)// int, default 50
     ->description('description')
     ->toggleable(),
+
 
 
 
