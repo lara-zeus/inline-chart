@@ -2,6 +2,15 @@
 
 All notable changes to `Inline Chart` will be documented in this file
 
+## 2.0.4 - 2025-10-17
+
+### What's Changed
+
+* Bump actions/checkout from 4 to 5 by @dependabot[bot] in https://github.com/lara-zeus/inline-chart/pull/25
+* Bump stefanzweifel/git-auto-commit-action from 6 to 7 by @dependabot[bot] in https://github.com/lara-zeus/inline-chart/pull/24
+
+**Full Changelog**: https://github.com/lara-zeus/inline-chart/compare/2.0.3...2.0.4
+
 ## 2.0.3 - 2025-10-17
 
 ### What's Changed
@@ -68,6 +77,7 @@ the usage will be:
     ->maxHeight(90)// int, default 50
     ->description('description')
     ->toggleable(),
+
 
 
 
