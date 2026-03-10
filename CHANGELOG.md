@@ -2,6 +2,14 @@
 
 All notable changes to `Inline Chart` will be documented in this file
 
+## 3.0.0 - 2026-03-10
+
+### What's Changed
+
+* support filament 5
+
+**Full Changelog**: https://github.com/lara-zeus/inline-chart/compare/2.0.4...3.0.0
+
 ## 2.0.4 - 2025-10-17
 
 ### What's Changed
@@ -77,6 +85,7 @@ the usage will be:
     ->maxHeight(90)// int, default 50
     ->description('description')
     ->toggleable(),
+
 
 
 
