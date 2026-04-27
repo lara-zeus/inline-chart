@@ -1,6 +1,6 @@
 ---
-title: v1
+title: v3
 slogan: filamentphp column to easily add a chart in filamentPHP table column
 githubUrl: https://github.com/lara-zeus/inline-chart
-branch: v1.x
+branch: v3.x
 ---
