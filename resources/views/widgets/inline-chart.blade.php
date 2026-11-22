@@ -6,7 +6,7 @@
     $heading = $this->getHeading();
     $filters = $this->getFilters();
 @endphp
-<x-filament-widgets::widget wire:ignore>
+<x-filament-widgets::widget>
     <div
         @if ($pollingInterval = $this->getPollingInterval())
             wire:poll.{{ $pollingInterval }}="updateChartData"
@@ -19,7 +19,7 @@
                 x-load
             @endif
             x-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('chart', 'filament/widgets') }}"
-
+            wire:ignore
             x-data="chart({
                 cachedData: @js($this->getCachedData()),
                 options: @js($this->getOptions()),

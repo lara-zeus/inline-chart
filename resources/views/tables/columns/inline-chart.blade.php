@@ -1,15 +1,18 @@
-<div wire:ignore>
-    @php
-        $getState = $getState();
-        $getMaxWidth = $getMaxWidth();
-        $getMaxHeight = $getMaxHeight();
-        $getIcon = $getIcon($getState);
-        $descriptionAbove = $getDescriptionAbove();
-        $descriptionBelow = $getDescriptionBelow();
-        $canWrap = $canWrap();
-        $getChart = $getChart();
-        $getRecord = $getRecord();
-    @endphp
+@php
+    $getState = $getState();
+    $getMaxWidth = $getMaxWidth();
+    $getMaxHeight = $getMaxHeight();
+    $getIcon = $getIcon($getState);
+    $descriptionAbove = $getDescriptionAbove();
+    $descriptionBelow = $getDescriptionBelow();
+    $canWrap = $canWrap();
+    $getChart = $getChart();
+    $getRecord = $getRecord();
+    $recordKey = $getRecordKey() ?? $getRecord?->getKey();
+    $columnName = $getName();
+@endphp
+
+<div wire:key="inline-chart-{{ $columnName }}-{{ $recordKey }}">
 
     @if (filled($descriptionAbove))
         <p
@@ -23,13 +26,12 @@
     @endif
 
     <div
-        wire:ignore
         style="
             width: {{ $getMaxWidth }}px !important;
             height: {{ $getMaxHeight + 25 }}px !important;
            "
     >
-        @livewire($getChart, ['maxWidth' => $getMaxWidth, 'maxHeight' => $getMaxHeight, 'lazy' => true, 'record' => $getRecord], key("chart-{$getRecord->id}"))
+        @livewire($getChart, ['maxWidth' => $getMaxWidth, 'maxHeight' => $getMaxHeight, 'lazy' => true, 'record' => $getRecord], key("chart-{$columnName}-{$recordKey}"))
     </div>
 
     @if (filled($descriptionBelow))
